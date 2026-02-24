@@ -183,6 +183,14 @@ Grafanaにダッシュボードをインポートし、DifyのPostgreSQLデー�
 
 [Azure Devops Pipeline Helm Chart by @LeoZhang](https://github.com/Ruiruiz30/Dify-helm-chart-AKS)を使用してDifyをAKSにワンクリックでデプロイ
 
+#### Render へのデプロイ
+
+[render.yaml](../../render.yaml) Blueprint を使用して、Dify を [Render](https://render.com) にデプロイします。下のボタンをクリックしてデプロイ：
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/langgenius/dify)
+
+> デプロイ後、PostgreSQL データベースで `CREATE EXTENSION IF NOT EXISTS vector;` を実行して pgvector 拡張機能を有効にしてください。
+
 ## 貢献
 
 コードに貢献したい方は、[Contribution Guide](./CONTRIBUTING.md)を参照してください。

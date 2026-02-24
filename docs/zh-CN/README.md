@@ -188,6 +188,14 @@ docker compose up -d
 
 使用[Azure Devops Pipeline Helm Chart by @LeoZhang](https://github.com/Ruiruiz30/Dify-helm-chart-AKS) 将 Dify 一键部署到 AKS
 
+#### 部署到 Render
+
+使用 [render.yaml](../../render.yaml) Blueprint 将 Dify 部署到 [Render](https://render.com)。点击下方按钮进行部署：
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/langgenius/dify)
+
+> 部署后，请在 PostgreSQL 数据库中运行 `CREATE EXTENSION IF NOT EXISTS vector;` 以启用 pgvector 扩展。
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=langgenius/dify&type=Date)](https://star-history.com/#langgenius/dify&Date)

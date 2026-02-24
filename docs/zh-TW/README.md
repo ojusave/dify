@@ -185,6 +185,14 @@ Dify 的所有功能都提供相應的 API，因此您可以輕鬆地將 Dify �
 
 使用[Azure Devops Pipeline Helm Chart by @LeoZhang](https://github.com/Ruiruiz30/Dify-helm-chart-AKS) 將 Dify 一鍵部署到 AKS
 
+#### 部署到 Render
+
+使用 [render.yaml](../../render.yaml) Blueprint 將 Dify 部署到 [Render](https://render.com)。點擊下方按鈕進行部署：
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/langgenius/dify)
+
+> 部署後，請在 PostgreSQL 資料庫中執行 `CREATE EXTENSION IF NOT EXISTS vector;` 以啟用 pgvector 擴充功能。
+
 ## 貢獻
 
 對於想要貢獻程式碼的開發者，請參閱我們的[貢獻指南](./CONTRIBUTING.md)。

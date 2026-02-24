@@ -195,6 +195,14 @@ Grafana में Dify के PostgreSQL डेटाबेस को डेट�
 
 [Azure Devops Pipeline Helm Chart by @LeoZhang](https://github.com/Ruiruiz30/Dify-helm-chart-AKS) के साथ एक क्लिक में Dify को AKS पर डिप्लॉय करें।
 
+#### Render पर डिप्लॉय करें
+
+[render.yaml](../../render.yaml) Blueprint का उपयोग करके Dify को [Render](https://render.com) पर डिप्लॉय करें। डिप्लॉय करने के लिए नीचे दिए गए बटन पर क्लिक करें:
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/langgenius/dify)
+
+> डिप्लॉयमेंट के बाद, अपने PostgreSQL डेटाबेस में `CREATE EXTENSION IF NOT EXISTS vector;` चलाकर pgvector एक्सटेंशन को सक्षम करें।
+
 ## योगदान (Contributing)
 
 जो लोग कोड में योगदान देना चाहते हैं, वे हमारे [Contribution Guide](./CONTRIBUTING.md) को देखें।\
