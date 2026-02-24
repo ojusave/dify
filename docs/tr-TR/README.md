@@ -181,8 +181,6 @@ Dify'ı bulut platformuna tek tıklamayla dağıtın [terraform](https://www.ter
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/langgenius/dify)
 
-> Dağıtımdan sonra, PostgreSQL veritabanınızda `CREATE EXTENSION IF NOT EXISTS vector;` komutunu çalıştırarak pgvector uzantısını etkinleştirin.
-
 ## Katkıda Bulunma
 
 Kod katkısında bulunmak isteyenler için [Katkı Kılavuzumuza](./CONTRIBUTING.md) bakabilirsiniz.

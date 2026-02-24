@@ -177,8 +177,6 @@ docker compose up -d
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/langgenius/dify)
 
-> بعد النشر، قم بتمكين إضافة pgvector عن طريق تشغيل `CREATE EXTENSION IF NOT EXISTS vector;` في قاعدة بيانات PostgreSQL الخاصة بك.
-
 ## المساهمة
 
 لأولئك الذين يرغبون في المساهمة، انظر إلى [دليل المساهمة](https://github.com/langgenius/dify/blob/main/CONTRIBUTING.md) لدينا.

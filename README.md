@@ -208,8 +208,6 @@ Deploy Dify to [Render](https://render.com) using the included [render.yaml](ren
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/langgenius/dify)
 
-> After deployment, enable the pgvector extension by running `CREATE EXTENSION IF NOT EXISTS vector;` in your PostgreSQL database.
-
 ## Contributing
 
 For those who'd like to contribute code, see our [Contribution Guide](https://github.com/langgenius/dify/blob/main/CONTRIBUTING.md).

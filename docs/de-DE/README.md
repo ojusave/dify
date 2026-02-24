@@ -192,8 +192,6 @@ Stellen Sie Dify auf [Render](https://render.com) mit dem [render.yaml](../../re
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/langgenius/dify)
 
-> Nach der Bereitstellung aktivieren Sie die pgvector-Erweiterung, indem Sie `CREATE EXTENSION IF NOT EXISTS vector;` in Ihrer PostgreSQL-Datenbank ausführen.
-
 ## Contributing
 
 Falls Sie Code beitragen möchten, lesen Sie bitte unseren [Contribution Guide](./CONTRIBUTING.md). Gleichzeitig bitten wir Sie, Dify zu unterstützen, indem Sie es in den sozialen Medien teilen und auf Veranstaltungen und Konferenzen präsentieren.

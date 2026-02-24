@@ -194,8 +194,6 @@ Dify-এর PostgreSQL ডাটাবেসকে ডেটা সোর্স 
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/langgenius/dify)
 
-> ডিপ্লয়মেন্টের পরে, আপনার PostgreSQL ডাটাবেসে `CREATE EXTENSION IF NOT EXISTS vector;` চালিয়ে pgvector এক্সটেনশন সক্রিয় করুন।
-
 ## Contributing
 
 যারা কোড অবদান রাখতে চান, তাদের জন্য আমাদের [অবদান নির্দেশিকা](https://github.com/langgenius/dify/blob/main/CONTRIBUTING.md) দেখুন।

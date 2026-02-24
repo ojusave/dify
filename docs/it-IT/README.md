@@ -193,8 +193,6 @@ Distribuite Dify su [Render](https://render.com) utilizzando il Blueprint [rende
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/langgenius/dify)
 
-> Dopo la distribuzione, abilitate l'estensione pgvector eseguendo `CREATE EXTENSION IF NOT EXISTS vector;` nel vostro database PostgreSQL.
-
 ## Contribuire
 
 Se desiderate contribuire con codice, leggete la nostra [Guida ai Contributi](../../CONTRIBUTING.md). Allo stesso tempo, vi chiediamo di supportare Dify condividendolo sui social media e presentandolo a eventi e conferenze.

@@ -182,8 +182,6 @@ Triển khai Dify lên [Render](https://render.com) bằng Blueprint [render.yam
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/langgenius/dify)
 
-> Sau khi triển khai, kích hoạt extension pgvector bằng cách chạy `CREATE EXTENSION IF NOT EXISTS vector;` trong cơ sở dữ liệu PostgreSQL của bạn.
-
 ## Đóng góp
 
 Đối với những người muốn đóng góp mã, xem [Hướng dẫn Đóng góp](./CONTRIBUTING.md) của chúng tôi.

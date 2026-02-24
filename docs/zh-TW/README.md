@@ -191,8 +191,6 @@ Dify 的所有功能都提供相應的 API，因此您可以輕鬆地將 Dify �
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/langgenius/dify)
 
-> 部署後，請在 PostgreSQL 資料庫中執行 `CREATE EXTENSION IF NOT EXISTS vector;` 以啟用 pgvector 擴充功能。
-
 ## 貢獻
 
 對於想要貢獻程式碼的開發者，請參閱我們的[貢獻指南](./CONTRIBUTING.md)。

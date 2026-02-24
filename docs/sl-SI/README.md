@@ -189,8 +189,6 @@ Namestite Dify na [Render](https://render.com) z uporabo Blueprint [render.yaml]
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/langgenius/dify)
 
-> Po uvajanju omogočite razširitev pgvector z izvajanjem `CREATE EXTENSION IF NOT EXISTS vector;` v vaši PostgreSQL bazi podatkov.
-
 ## Prispevam
 
 Za tiste, ki bi radi prispevali kodo, si oglejte naš [vodnik za prispevke](https://github.com/langgenius/dify/blob/main/CONTRIBUTING.md). Hkrati vas prosimo, da podprete Dify tako, da ga delite na družbenih medijih ter na dogodkih in konferencah.

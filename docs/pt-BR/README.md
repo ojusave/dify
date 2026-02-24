@@ -188,8 +188,6 @@ Implante o Dify no [Render](https://render.com) usando o Blueprint [render.yaml]
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/langgenius/dify)
 
-> Após a implantação, habilite a extensão pgvector executando `CREATE EXTENSION IF NOT EXISTS vector;` no seu banco de dados PostgreSQL.
-
 ## Contribuindo
 
 Para aqueles que desejam contribuir com código, veja nosso [Guia de Contribuição](./CONTRIBUTING.md).

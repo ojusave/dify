@@ -182,8 +182,6 @@ Dify를 Kubernetes에 배포하고 프리미엄 스케일링 설정을 구성했
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/langgenius/dify)
 
-> 배포 후 PostgreSQL 데이터베이스에서 `CREATE EXTENSION IF NOT EXISTS vector;`를 실행하여 pgvector 확장을 활성화하세요.
-
 ## 기여
 
 코드에 기여하고 싶은 분들은 [기여 가이드](./CONTRIBUTING.md)를 참조하세요.

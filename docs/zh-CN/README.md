@@ -194,8 +194,6 @@ docker compose up -d
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/langgenius/dify)
 
-> 部署后，请在 PostgreSQL 数据库中运行 `CREATE EXTENSION IF NOT EXISTS vector;` 以启用 pgvector 扩展。
-
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=langgenius/dify&type=Date)](https://star-history.com/#langgenius/dify&Date)

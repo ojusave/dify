@@ -201,8 +201,6 @@ Grafana में Dify के PostgreSQL डेटाबेस को डेट�
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/langgenius/dify)
 
-> डिप्लॉयमेंट के बाद, अपने PostgreSQL डेटाबेस में `CREATE EXTENSION IF NOT EXISTS vector;` चलाकर pgvector एक्सटेंशन को सक्षम करें।
-
 ## योगदान (Contributing)
 
 जो लोग कोड में योगदान देना चाहते हैं, वे हमारे [Contribution Guide](./CONTRIBUTING.md) को देखें।\
